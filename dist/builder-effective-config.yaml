@@ -1,0 +1,8 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.yourapp.id
+win:
+  target: nsis
+files: []
+electronVersion: 34.0.2

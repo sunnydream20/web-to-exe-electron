@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    height: calc(100vh - 100px);
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    min-width: 800px;
+}
+
+.main-left {
+    width: 50%;
+}
+
+.main-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-div {
+    height: 37px;
+}
+
+.tick-p {
+    font-size: 20px;
+}
+
+.right-content {
+    flex: 1;
+    border: 1px solid #ccc;
+}
+
+.user-info-div {
+    height: 50px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.b-normal {
+    border: 1px solid #ccc;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.g-small {
+    gap: 10px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.p-0 {
+    padding: 0px;
+}
+
+.progress-bar {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.progress {
+    height: 50px;
+}
+
+.w3-light-grey {
+    height: 50px !important;
+}
+
+.tab:not(:target) {
+  display: none;
+}
+
+.tab:last-child {
+  display: block;
+}
+
+.tab:target ~ .tab:last-child {
+  display: none;
+}
+
+.tabs {
+  width: 100%;
+}
+
+.tab-content {
+    height: calc(100% - 35px);
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.nav-tabs {
+    margin-bottom: 0px !important;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+
+.model-firehose {
+    margin: 20px;
+    position: relative;
+    border: 1px solid #ccc;
+    height: 30%;
+}
+
+.model-firehose-title {
+    position: absolute;
+    top: -10px;
+    z-index: 1;
+    background-color: white;
+    left: 20px;
+}
+
+.font-size-normal {
+    font-size: 16px;
+}
+
+.model-firehose-part {
+    height: 30%;
+    display: flex;
+}
+
+.firehose-part-p {
+    width: 100px;
+}
+
+.fileinput {
+    width: 30px !important;
+}
+
+.file-input-container {
+    width: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.file-input {
+    display: none; /* Hide the default file input */
+}
+
+.file-input-label {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #aaa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px; /* Adjust font size as needed */
+    text-align: center;
+}
+
+.firehose-part-input {
+    height: 34px !important;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.qualcomm-below {
+    margin: 20px 20px  0px 20px;
+}
